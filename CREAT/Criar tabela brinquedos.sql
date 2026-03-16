@@ -1,0 +1,10 @@
+-- Active: 1773680317416@@127.0.0.1@3306
+CREATE TABLE brinquedos (
+    id INTEGER NOT NULL PRIMARY KEY AUTOINCREMENT UNIQUE,
+    marca TEXT NOT NULL,
+    tipo TEXT NOT NULL,
+    preco_uni INTEGER NOT NULL,
+    quantidade INTEGER NOT NULL
+
+
+)

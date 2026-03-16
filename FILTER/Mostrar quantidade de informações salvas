@@ -1,0 +1,5 @@
+SELECT COUNT(*) AS total_lojas FROM lojas;
+
+SELECT COUNT(*) AS total_brinquedos FROM brinquedos;
+
+SELECT COUNT(*) AS total_relacoes FROM loja_brinquedo;
